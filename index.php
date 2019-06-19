@@ -16,6 +16,13 @@
     echo "test";
     ?>
 </h1>
+<div class = "container">
+    <?php
+    $file = fopen("insurance_small.csv","r");
+    print_r(fgetcsv($file));
+    fclose($file)
+    ?>
+</div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
