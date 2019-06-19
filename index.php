@@ -1,6 +1,6 @@
 <?php
 
-main::start("insurance_small.csv");
+main::start("main.csv");
 class main
 {
     static public function start($filename){
